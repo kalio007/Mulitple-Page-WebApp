@@ -1,0 +1,22 @@
+.NavBar{
+    display: flex;
+    justify-content: space-between;
+}
+.NavBar-logo{
+    display: felx;
+    align-items:flex-start;
+    justify-content: center;
+}
+.NavBar-Menu{
+    display: flex;
+    align-items:flex-end;
+    justify-content: center;
+    color: black;
+}
+.NavBar-links{
+    display: flex;
+    flex-direction: row;
+}
+li{
+    color: black;
+}
