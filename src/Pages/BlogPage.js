@@ -1,13 +1,13 @@
 import React from 'react';
-import NavBar from '../Components/NavBar';
+import MainLayout from './MainLayout';
 
 
 function BlogPage() {
   return (
-    <div className='BlogPage' >
-        <NavBar/>
-        <div>BlogPage</div>
-    </div>
+  <div>
+    <MainLayout></MainLayout>
+    <h1>BlogPage</h1>
+  </div>
     
   )
 }
